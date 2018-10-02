@@ -5,7 +5,7 @@ date:   2018-10-01 12:31:21 +0800
 tags: linux eth etc ethereum
 color: rgb(255,90,90)
 cover: '../assets/ethereum.jpg'
-subtitle: 'eth node install!'
+subtitle: 'ETH Node Install!'
 ---
 使用以太坊进行转账等操作可以自己安装节点目前大约300G左右硬盘即可，可以离线签名交易，不依赖中心化交易所或者去中心化钱包，保证自己以太坊的安全，免去了使用冷钱包的复杂操作，此章介绍如何在ubuntu16.04上安装parity节点，以及使用geth console来和链交互，离线交易使用python，将在后面介绍：
 
