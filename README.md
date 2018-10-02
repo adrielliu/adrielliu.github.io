@@ -1,10 +1,10 @@
-## HardCandy-Jekyll
+## Adriel Blog
 
 
 
 ### Preview
 
-[在线预览 view demo →](http://xseven.me/)
+[在线预览 view demo →](https://adrielliu.github.io/)
 
 ![1](/screenshot/1.png)
 
