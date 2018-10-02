@@ -9,12 +9,12 @@ subtitle: 'eth node install!'
 ---
 使用以太坊进行转账等操作可以自己安装节点目前大约300G左右硬盘即可，可以离线签名交易，不依赖中心化交易所或者去中心化钱包，保证自己以太坊的安全，免去了使用冷钱包的复杂操作，此章介绍如何在ubuntu16.04上安装parity节点，以及使用geth console来和链交互，离线交易使用python，将在后面介绍：
 
-- **parity的安装**
-- **linux下守护程序supervisor安装**
-- **配置supervisor配置文件**
-- **配置parity配置文件**
-- **启动ETH-parity**
-- **geth简单和链交互**
+- [**parity的安装**](安装parity)
+- [**linux下守护程序supervisor安装**](linux下守护程序supervisor安装)
+- [**配置supervisor配置文件**](配置supervisor配置文件)
+- [**配置parity配置文件**](配置parity配置文件)
+- [**启动ETH-parity**](配置启动parity服务)
+- [**geth简单和链交互**](geth交互)
 
 ----
 #### 1.安装parity
