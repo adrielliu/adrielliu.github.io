@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "pandas 使用透视表"
+date:   2019-05-09 18:49:21 +0800
+tags: pandas
+color: rgb(255,90,90)
+cover: ''
+subtitle: 'pandas Pivot table'
+---  
+
+#### pandas 透视表基本操作  
+基本数据如下图  
+[pandas透视图原始数据]('../assets/pandas透视图原始数据.png')
+
+
