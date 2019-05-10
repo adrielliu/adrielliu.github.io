@@ -10,6 +10,27 @@ subtitle: 'pandas Pivot table'
 
 #### pandas 透视表基本操作  
 基本数据如下图  
-[pandas透视图原始数据]('../assets/pandas透视图原始数据.png')
+总共有5列数据， 第一列btc是btc的金额， 第二列是时间戳(每天下午三点)，第三列是交易所的名称， 第四列是交易所里面账户的名称， 第五列是账户下面的币种  
+
+![pandas透视图原始数据](../assets/pandas透视图原始数据.png)  
+
+- 1. 查看每个交易所每天下午三点每个账户的总额？  
+以btc列作为value， date_time列作为index， exchange列的值作为列，aggfunc方法使用sum对相同exchange下面当前时间所有的btc作为value相加
+```python
+#透视表
+df.pivot_table('btc', index=['date_time'], columns=['exchange'], aggfunc=sum)  
+```  
+结果：  
+
+![pandas透视图原始数据](../assets/pandas透视表按交易所透视.png)  
 
 
+- 2. 查看每个交易所每个账户下面每天下午三点每个账户的总额？  
+以btc列作为value， date_time列作为index， exchange列的值作为列，aggfunc方法使用sum对相同exchange下面当前时间所有的btc作为value相加
+```python
+#透视表
+df.pivot_table('btc', index=['date_time'], columns=['exchange'， 'account'], aggfunc=sum)  
+```  
+结果：  
+
+![pandas透视图原始数据](../assets/pandas透视表按交易所账户透视.png)  
